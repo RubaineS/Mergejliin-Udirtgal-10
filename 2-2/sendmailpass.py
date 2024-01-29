@@ -21,7 +21,7 @@ for i in psw:
     final+=str(i) #final is psw
 
 
-subject = "Python automatic email"
+subject = "Python psw"
 body = "Tanii shine nuuts ug" + final
 sender = "sw23d005@mandakh.edu.mn"
 recipients = ["badmaarag.contact@gmail.com"]
