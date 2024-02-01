@@ -29,7 +29,7 @@ password = "badmaarag12"
 
 
 def send_email(subject, body, sender, recipients, password):
-    for i in range(0, 2, 1):
+    for i in range(0, 1, 1):
         msg = MIMEText(body)
         msg['Subject'] = subject
         msg['From'] = sender
