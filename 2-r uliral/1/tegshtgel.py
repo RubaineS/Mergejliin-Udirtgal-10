@@ -6,7 +6,7 @@ def tegshtgel(x, y, z):
     x0 = (y ** 2) - (4 * x * z)
     x1 = (-y + (x0**0.5))/(2*x)
     x2 = (-y - (x0**0.5))/(2*x)
-    return "{:.2f}".format(x1), "{:.2f}".format(x2), round(x1, 3), round(x2, 3)
+    return "{:.2f}".format(x1), f"{x2:.2f}", round(x1, 3), round(x2, 3)
 a, b, c = map(int, input().split())
 d = tegshtgel(a, b, c)
 print(d)
